@@ -1,10 +1,13 @@
 body {
     background-color: #929f93;
+    margin: 0;
     }
-
 
 button {
   margin-left: 150px;
+}
+.container {
+
 }
   .product {
   }
