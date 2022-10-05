@@ -2,6 +2,7 @@ header {
   background-color: rgb(234, 230, 194);
   background-size: cover;
   margin: 0px;
+  font-family:'EB Garamond';
 }
 .basket {
   margin: 0px;
@@ -15,6 +16,7 @@ header {
 .main_header {
   display: inline-block;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'EB Garamond';
 }
 
 body {
@@ -22,7 +24,12 @@ body {
   background-size:cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  margin: 0;
+  font-family:'EB Garamond';
 }
+
+
+
 section {
   margin-top: 0px;
   margin-left: 300px;
@@ -48,6 +55,8 @@ section {
   font-family: sans-serif;
   margin-bottom: 0px;
   border-radius: 25px;
+  font-family:'EB Garamond';
+  font-size: 25px;
   }
 
 .logo {
@@ -254,4 +263,13 @@ a {
 h4 {
   margin-top: 10px;
   text-align: center;
+  font-family:'EB Garamond';
+  }
+  @font-face {
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ebgaramond/v26/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QL9wU6ingQ.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
   }
