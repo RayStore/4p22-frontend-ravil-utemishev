@@ -1,36 +1,216 @@
 * {
   box-sizing: border-box;  
 }
-
 html, body {
   width: 100%;
   height: 100%; 
   margin: 0;
   padding: 0;
-  font-family: 'Roboto';
+  font-family: 'RobotoFlex';
 }
-
 .address_box {
   width: 100%;
   display: flex;
   margin: 0;
-
 }
-
 .header {
 height: 89px;
 width: 100%;
-background: navy;
+background: #0158f9;
+border: 0px solid #0158f9;
+z-index: 9999;
 }
-
 .header__container {
-  font-size: 54px;
-  color: #FFFFFF;
-  font-style: normal;
-  text-align: left;
   width: 403px;
   height: 63px;
   margin-left: 29px;
   margin-top: 13px;
   margin-bottom: 13px;
+}
+.header__h1 {
+  width: 403px;
+  height: 63px;
+  font-size: 54px;
+  margin: 0;
+  color: #FFFFFF;
+  font-style: normal;
+  text-align: left;
+}
+main {
+  position: relative;
+	margin-top: 120px;
+	flex: 1 0 auto;
+}
+.sidebar {
+  position: fixed;
+}
+.sidebar__case {
+  width: 280px;
+	min-height: 450px;
+	border-right: 2px solid #C4C4C4 ;
+	margin: 27px 0 0 0;
+}
+.sidebar__content {
+  padding: 0 0 0 20px;
+}
+.sidebar__h2 {
+  font-family: 'RobotoFlex';
+  font-size: 28px;
+  font-weight: 600;
+  padding: 0;
+	margin: 0 0 23px 0;	
+}
+.sidebar__info-search {
+font-size: 24px;
+font-weight: 100;
+margin-bottom: 12px;
+}
+.sidebar__info-link {
+ color: #FF710B; 
+
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+
+}
+.search-line {
+  position: fixed;
+  top: 100px;
+  left: 300px;
+  width: 80%;
+  padding: 10px;
+  z-index: 50;
+}
+.search-line__case {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 5px 5px -3px darkgray;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+.search-line__form-case {
+  width: 100%;
+}
+.search-line__form {
+  text-align: center;
+}
+.search-line__input {
+  height: 50px;
+  width: 50%;
+  border-radius: 8px;
+  border: 2px solid seashell;
+}
+.search-line__input:focus {
+  color: darkslategrey;
+  background-color: #FFFFFF;  
+  border-color: #C4C4C4;
+  outline: 0;
+  border: 1px solid transparent;
+  box-shadow: 0 0 5px 2px steelblue;
+}
+.search-line__input::-moz-placeholder {
+  padding: 0 0 0 13px;
+  font-size: 16px;
+}
+.search-line__input:-ms-input-placeholder {
+  padding: 0 0 0 13px;
+  font-size: 16px;
+}
+.search-line__input::placeholder {
+  padding: 0 0 0 13px;
+  font-size: 16px;
+}
+.search-line__input:focus::-moz-placeholder {
+  opacity: 0;
+  -moz-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.search-line__input:focus:-ms-input-placeholder {
+  opacity: 0;
+  -ms-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+} 
+.search-line__submit {
+font-family: 'RobotoFlex', Arial, Helvetica, sans-serif;
+-webkit-appearance: none;
+-moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 7px;
+    background: steelblue;
+    color: #FFFFFF;
+    padding: 6px 12px;
+}
+.search-line__submit:hover {
+  background-color: navy;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.search-line__submit:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px steelblue;
+}
+.search-line__alphabet {
+font-family: 'RobotoFlex', Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+font-weight: 500;
+font-size: 14px;
+text-align: center;
+margin: 10px 0 0 0;
+}
+.search-line__alphabet-link {
+text-decoration: none;
+color: #FF710B;
+margin: 0 0 0 12px;
+}
+.search-line__alphabet-link:hover {
+  text-decoration: wavy;
+}
+.surnames {
+  position: absolute;
+  left: 340px;
+  width: 70%;
+  z-index: -1;
+}
+.surnames__case {
+  background-color: #FFFFFF;
+}
+.surnames__box {
+  background-color: #FFFFFF;
+}
+.surnames__box-subtitle {
+  position:-webkit-sticky;
+  position: sticky;
+  top: 205px;
+  font-family: 'RobotoFlex', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color: #0158f9;
+  display: block;
+  width: 100%;
+  color: #FFFFFF; 
+  padding: 5px 5px 5px 10px;
+}
+.surnames__box-list {
+  font-family: 'RobotoFlex', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  padding: 8px;
+}
+.surnames__box-name {
+  margin-bottom: 10px;
+}
+
+*[id]:before {
+  display: block;
+  /* content: " "; */
+  margin-top: -210px;
+  height: 210px;
+  visibility: hidden;
 }
