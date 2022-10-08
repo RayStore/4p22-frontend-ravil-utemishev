@@ -223,9 +223,10 @@ margin: 0 0 0 12px;
     bottom: -20px;
     right: 0;
     width: 100%;
+    margin: 0;
 }
 .footer__case {
-  background-color: #000;
+  background: rgba(105, 103, 103, 0.696);
   width: 100%;
 }
 .footer__text {
