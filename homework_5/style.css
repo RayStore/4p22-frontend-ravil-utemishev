@@ -12,6 +12,8 @@ html, body {
   width: 100%;
   display: flex;
   margin: 0;
+  position: fixed;
+  top: 0;
 }
 .header {
 height: 89px;
@@ -82,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .search-line {
   position: fixed;
-  top: 100px;
+  top: 79px;
   left: 300px;
   width: 80%;
   padding: 10px;
@@ -189,7 +191,7 @@ margin: 0 0 0 12px;
 .surnames__box-subtitle {
   position:-webkit-sticky;
   position: sticky;
-  top: 205px;
+  top: 191px;
   font-family: 'RobotoFlex', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   background-color: #0158f9;
@@ -202,6 +204,7 @@ margin: 0 0 0 12px;
   font-family: 'RobotoFlex', Arial, Helvetica, sans-serif;
   font-size: 22px;
   padding: 8px;
+  margin-top: 20px;
 }
 .surnames__box-name {
   margin-bottom: 10px;
