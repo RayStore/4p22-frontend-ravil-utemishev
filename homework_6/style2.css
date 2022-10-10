@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%; 
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+width: 100%;
+height: 115px;
+position: fixed;
+z-index: 50;
+background-color: rgb(128, 159, 214);
+}
+.uppercase {
+    width: 100%;
+    max-width: 2560px;
+    margin: 0 auto;
+}
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 20px 20px;  
+}
+.header-box__title {
+    font-family: 'Dihjauti S';
+    font-weight: 400;
+    line-height: 50px;
+    color: azure;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-shadow: 1px 0 1px #000, 
+    0 -1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+}
+.header-box__input {
+    height: 30px;
+    width: 30%;
+    min-width: 150px;
+    border: 1px solid rgb(0, 251, 255);
+    border-radius: 8px;
+    outline: 1px solid #1e7ede;
+    box-shadow: 0px -1px 2px 1px;
+}
+.header-box__button {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+.button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.button-search {
+    box-shadow: 1px 0px 4px 0px;
+    font-family: 'RobotoFlex';
+    background: rgb(236, 175, 20);
+    padding: 6px 12px;
+    border-radius: 10px;
+    color: aliceblue;
+    text-shadow: 1px 0 1px #000, 
+    0 -1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+    height: 30px;
+    line-height: 10px;
+    font-weight: 400;
+    width: auto;
+   }
+.line-alphabet {
+    text-align: left;
+    font-weight: 300;
+    font-family: 'Dihjauti S';
+    font-size: 1em;
+    margin-block-start: -2em;
+    margin-left: 1em;
+} 
+.line-alphabet__link {
+    color: rgb(236, 175, 20);
+    text-shadow: 1px 0 1px black;
+    text-decoration: none;
+}
+.line-alphabet__link:hover {
+    background-color: floralwhite;
+}
+
+.main {
+    padding-top: 100px;  
+}
+.main-wrapper {
+    display: flex;
+}
+.wrapper {
+    width: 100%;
+    max-width: 2560px;
+    margin: 0 auto; 
+}
+.main-sidebar {
+    width: 20%;
+    position: fixed;
+    top: 125px;
+    left: 2.5%;
+    height: 50%;
+    font-weight: 200;
+    line-height: 30px;
+    border-right: 2px solid grey;
+    font-family: 'Dihjauti S';
+   }
+h2 {
+    text-shadow: 1px 0 1px rgb(230, 149, 9), 
+    0 -1px 1px rgb(230, 149, 9), 
+    -1px 0 1px rgb(230, 149, 9), 
+    0 -1px 1px rgb(230, 149, 9);
+}   
+.sidebar-info {
+    position: absolute;
+    list-style-type: none;
+    top:70px;
+    text-align: left;
+}
+
+.sidebar-info__search {
+    top: 120px;
+    text-shadow: 1px 0 1px rgb(0, 0, 0), 
+    0 -1px 1px rgb(0, 0, 0), 
+    -1px 0 1px rgb(0, 0, 0), 
+    0 -1px 1px rgb(0, 0, 0);;
+    text-decoration: none;
+}
+a {
+    color: rgb(8, 161, 250);
+    text-decoration: none;
+}
+
+.surnames {
+    position: absolute;
+    left: 25%;
+    width: 70%;
+    border: 1px solid rgb(230 149 9);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.surnames__box {
+    top:120px;
+}
+.surnames__box-subtitle {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: rgb(188, 213, 90);
+    position: sticky;
+    top: 115px;
+    z-index: -1;
+}
+.surnames__box-list {
+    list-style-type: none;
+}
