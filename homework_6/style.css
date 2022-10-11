@@ -157,7 +157,8 @@ a {
     margin-top: 20px;
 }
 .surnames__box {
-    top:120px;
+    margin-top: -90px;
+    padding-top: 90px;
 }
 .surnames__box-subtitle {
     display: flex;
@@ -173,4 +174,25 @@ a {
 }
 .surnames__box-list {
     list-style-type: none;
+}
+
+.footer {
+    flex: 0 0 auto;
+    position: fixed;
+    bottom: -20px;
+    right: 0;
+    width: 100%;
+    margin: 0;
+}
+.footer__case {
+  background: rgba(105, 103, 103, 0.696);
+  width: 100%;
+}
+.footer__text {
+  text-align: center;
+  font-family: 'RobotoFlex', sans-serif;
+  font-weight: 200;
+  letter-spacing: 15px;
+  padding: 12px;
+  color: rgba(255, 255, 255, 0.8);
 }
