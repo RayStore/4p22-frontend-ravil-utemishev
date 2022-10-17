@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.box {
+    width: 50%;
+    height: 200px;
+    max-height: 50vh;
+    background: red;
+}
+

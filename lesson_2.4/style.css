@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+.image-container {
+    position: relative;
+    width: 300px;
+
+}
+
+.image-container img {
+    width: 100%;
+    object-fit: cover;
+}
+.image-container h3 {
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+}
