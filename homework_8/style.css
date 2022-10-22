@@ -245,36 +245,39 @@ body {
 @media screen and (max-width: 768px) {
 
     .header {
-        display: flex;
-        flex-flow: row;
+        font-family: 'Inter', sans-serif;
         height: calc(80 / 768 * 100vw);
-        background: #FFFFFF;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding-left: calc(20 / 768 * 100vw);
+        padding-right: calc(28 / 768 * 100vw);
+        padding-top: calc(23 / 768 * 100vw);
+        padding-bottom: calc(30 / 768 * 100vw);
     }
 
     .header__logo_1 {
-        margin-left: calc(20 / 768 * 100vw);
-        margin-bottom: calc(30 / 768 * 100vw);
-        margin-top: calc(25 / 768 * 100vw);
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: calc(25 / 768 * 100vw);
+        width: calc(124 / 768 *100vw);
     }
 
     .header__title {
         font-family: 'Inter';
         color: #787878;
-        margin-top: calc(25 / 768 * 100vw);
-        margin-bottom: calc(30 / 768 * 100vw);
-        margin-left: calc(34 / 768 * 100vw);
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: calc(33 / 768 * 100vw);
+        height: calc(29 / 768 * 100vw);
         font-size: calc(24 / 768 * 100vw);
+        width: calc(162 / 768 * 100vw);
         font-weight: 700;
         font-style: normal;
-        text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
     }
 
     .header__registration {
-        margin-left: calc(219 / 768 * 100vw);
-        margin-bottom: calc(31 / 768 * 100vw);
-        margin-top: calc(30 / 768 * 100vw);
+        margin-left: calc(220 / 768 * 100vw);
+        margin-bottom: calc(-1 / 768 * 100vw);
+        margin-top: calc(7 / 768 * 100vw);
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
@@ -300,13 +303,14 @@ body {
     }
 
     .header__enterin {
+        margin-top: calc(7 / 768 * 100vw);
+        margin-right: 0;
         margin-left: calc(36 / 768 * 100vw);
-        margin-top: calc(30 / 768 * 100vw);
-        margin-bottom: calc(31 / 768 * 100vw);
+        margin-bottom: calc(-1 / 768 * 100vw);
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
-        font-size: calc(16 / 320 * 100vw);
+        font-size: calc(16 / 768 * 100vw);
         color: #1A226B;
         text-decoration: none;
     }
