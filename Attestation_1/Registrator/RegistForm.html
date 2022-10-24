@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_form</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="Registstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img src="./1280px-IU_logo_1.png" class="header__logo_1" alt="InnopolisUniversity">
+        <div class="header__title">PCS Frontend</div>
+        <a class="header__registr" href="">Регистрация</a>
+        <a class="header__enterin" href="">Вход</a>
+    </header>
+    <div class="registr-box">
+        <div class="registr-box__title">Регистрация</div>
+        <form action="#" class="registr-box__case-registrator">
+        <label class="registr-box__label-email" for="email">Email</label>
+        <input class="registr-box__input-email" type="email" id="email" name="email" placeholder="Введите email">
+        <label class="registr-box__label-password" for="password">Пароль</label>
+        <input class="registr-box__input-password" type="password" id="password" name="password" placeholder="Введите пароль">
+        <label class="registr-box__label-password-confirm" for="password-confirm">Подтверждение пароля</label>
+        <input class="registr-box__input-password-confirm" type="password" id="password-confirm" name="password-confirm" placeholder="Подтвердите пароль">  
+        <div class="registr-box__radio">
+            <legend class="radio__gender">Пол</legend> 
+            <div class="radio__man">
+                <input class="radio__inputMan" type="radio" name="gender-type" id="man" value="Man">   
+                <label class="radio__labelMan" for="man">Мужчина</label>    
+            </div>
+            <div class="radio__woman">
+                <input class="radio__inputWoman" type="radio" name="gender-type" id="woman" value="Woman">
+                <label class="radio__labelWoman" for="woman">Женщина</label>
+            </div>
+        </div> 
+        <div class="registr-box__textarea-personinfo">
+            <span class="textarea-personinfo__section">О себе</span>
+            <textarea class="textarea-personinfo__aboutyourself" name="personinfo" id="personinfo" placeholder="Расскажите о себе..."></textarea> 
+        </div>
+        <div class="registr-box__checkcase">
+            <input type="checkbox" id="checkcase" value="TRUE">
+            <label for="checkcase">Я согласен получать обновления на почту</label> 
+        </div>
+        <button class="registr-box__button">Регистрация</button>
+    </form>     
+    </div>
+</main>
+</body>
+</html>
