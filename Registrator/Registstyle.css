@@ -358,7 +358,7 @@ body {
 
 .registr-box__checkcase label::after {
     content: '';
-    background: url(https://github.com/RayStore/4p22-frontend-ravil-utemishev/blob/attestation_1/Images/Rectangle_box.png) no-repeat;
+    background: url(https://github.com/RayStore/4p22-frontend-ravil-utemishev/blob/attestation_1/Rectangle_box.png) no-repeat;
     background-size: contain;
     position: absolute;
     align-items: center;
@@ -737,7 +737,7 @@ body {
 
     .registr-box__checkcase label::after {
         content: '';
-        background: url(https://github.com/RayStore/4p22-frontend-ravil-utemishev/blob/attestation_1/Images/Rectangle_box.png) no-repeat;
+        background: url(https://github.com/RayStore/4p22-frontend-ravil-utemishev/blob/attestation_1/Rectangle_box.png) no-repeat;
         background-size: contain;
         position: absolute;
         align-items: center;
