@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Entry_card</title>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <img src="./Images/1280px-IU_logo_1.png" class="header__logo_1" alt="InnopolisUniversity">
+            <div class="header__title">PCS Frontend</div>
+            <a class="header__registration" href="./Registrator/RegistForm.html">Регистрация</a>
+            <a class="header__enterin" href="">Вход</a>
+        </header>
+        <div class="cardentry">
+            <div class="cardentry__title">
+            <h1 class="cardentry__enter">Вход</h1>
+            </div>
+            <form class="card" action="#">
+                <div class="card__email">
+                <input type="email" id="e-mail" name="email" placeholder="Введите email" autocomplete="off">
+                <label for="email">Email</label>
+                </div>
+                <div class="card__password">
+                <input type="password" id="password" name="password" placeholder="Введите пароль" autocomplete="off">
+                <label for="password">Пароль</label>
+                </div>
+                <button class="card__button">Войти</button>
+            </form>
+        </div>
+    </body>
+</html>
