@@ -1,0 +1,275 @@
+header {
+  background-color: rgb(234, 230, 194);
+  background-size: cover;
+  margin: 0px;
+  font-family:'EB Garamond';
+}
+.basket {
+  margin: 0px;
+}
+
+.basket1 {
+  margin-top: 0px;
+  width: 40px;
+  height: 40px;
+}
+.main_header {
+  display: inline-block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'EB Garamond';
+}
+
+body {
+  background-image: url(./img/scale_1200.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family:'EB Garamond';
+}
+
+
+
+section {
+  margin-top: 0px;
+  margin-left: 300px;
+  top: 50%;
+  right: 50%;
+  left: 50%;
+  }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 100px;  
+  column-gap: 100px;
+  }
+
+.card1 {
+  margin-top: 20px;
+  margin-right: 30px;
+  box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  max-height: 1000px; 
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 0px;
+  border-radius: 25px;
+  font-family:'EB Garamond';
+  font-size: 25px;
+  }
+
+.logo {
+  margin-left: 1px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  }
+
+li {
+  border: 10px;
+  border-radius: 15px;
+  margin-right: 40px;
+  margin-left: 20px;
+  border-style: groove;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  }
+
+.headericons li{
+  display: inline-block;
+  }
+
+.steel1 {
+  height: 200px;
+  width: 200px;
+  margin-top: 0px;
+  border-radius: 25px;
+  }
+
+.steel2 {
+  height: 150px;
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  }
+
+.steel3 {
+    height: 150px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+  }
+
+.steel4 {
+    height: 200px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+.steel5 {
+    height: 200px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }  
+.steel6 {
+    height: 200px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  } 
+
+h3 {
+    color: darkblue;
+  }
+
+p  {
+  padding: 0px;
+  font-size: 14px;
+  color: #757575;
+  margin-bottom: 10px;
+  }
+
+.price1 {
+    color: firebrick;
+    font-size: 18px;
+    margin-bottom: 7px;
+    
+  }
+
+.shopcart1 {
+    border-radius: 25px;
+    outline: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    background-color:darkslateblue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+  } 
+
+.shopcart2 {
+    border-radius: 25px;
+    outline: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    background-color:darkslateblue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 27px;
+  }
+
+.shopcart3 {
+    border-radius: 25px;
+    outline: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    background-color:darkslateblue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 44px;
+  }
+
+.shopcart4 {
+    border-radius: 25px;
+    outline: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    background-color:darkslateblue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 13px;
+  }
+.shopcart5 {
+    border-radius: 25px;
+    outline: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    background-color:darkslateblue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 13px;
+  }
+
+a {
+  color:tomato;
+  text-decoration: none;
+
+} 
+.shopcart6 {
+    border-radius: 25px;
+    outline: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    background-color:darkslateblue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 13px;
+  }
+
+  footer {
+  background-color: lavender;
+  min-width: 100%;
+  height: 160px;
+  display:inline-block;
+  margin-top: 150px;
+    
+  }
+  .android_pay { 
+    margin-top: 100px;
+    width: 25px;
+    height: 25px;
+    
+  }
+  
+  .apple_pay { 
+    margin-top: 100px;
+    width: 25px;
+    height: 25px;
+    }
+  
+  .vk { 
+    margin-top: 100px;
+    width: 25px;
+    height: 25px;
+    }
+
+h4 {
+  margin-top: 10px;
+  text-align: center;
+  font-family:'EB Garamond';
+  }
+  @font-face {
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ebgaramond/v26/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QL9wU6ingQ.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
