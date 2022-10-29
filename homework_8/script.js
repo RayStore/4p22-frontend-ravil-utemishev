@@ -37,10 +37,11 @@ buttonResult.addEventListener('click', (event) => {
         return console.log('Операция некорректна');
     };
 
-    if (resultDetection === Infinity) {
+    if (resultDetection === Infinity || resultDetection === -Infinity) {
         sumResultCase.innerText = 'Операция некорректна';
         console.log('Операция некорректна');
-    } else {
+    }
+    else {
         sumResultCase.innerText = `Ответ: ${resultDetection}`;
         console.log(resultDetection);
     };
