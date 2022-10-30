@@ -115,12 +115,5 @@
 
 // function Expression (lambda - стрелочная функция)
 
-let a = 3;
-let b = 2;
 
-if (a < b) {
-    console.log('true');
-} else if (a > b) {
-    console.log('false');
-};
 
