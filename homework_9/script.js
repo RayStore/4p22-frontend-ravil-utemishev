@@ -1,22 +1,24 @@
-function myFibonacciFunc() {
-    let a = 0;
-    let b = 1;
-    return {
-        next: () => {
-            let f = a;
-            a = b;
-            b = f + a;
-            return { value: f, done: false };
-        }
+'use strict'
+
+function makeFibonacciFunction() {
+    // область видимости функции makeFibonacciFunction()
+    let calc = 0;
+
+    function helper() {
+        // область видимости функции helper()
+        console.log(calc)
+    }
+    return helper
+
+    function helper() {
+        // область видимости функции helper()
+        console.log(calc++)
     }
 }
-
-const fibonacci = myFibonacciFunc();
-
+const fibonacci = makeFibonacciFunction()
 fibonacci();
-
-
-
-
-
-
+fibonacci();
+fibonacci();
+fibonacci();
+fibonacci();
+fibonacci();
