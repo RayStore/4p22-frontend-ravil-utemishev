@@ -33,6 +33,8 @@ fetch('https://reqres.in/api/users/?per_page=12')
         console.log(result.data.reduce((acc, item) => acc + item.first_name + " " + item.last_name + ', ', "Наша база содержит данные следующих пользователей: "));
         console.log('-----------');
         console.log('Пункт №5:');
+        // код для выполнения пункта 5
+        console.log('-----------');
         for (item in result.data[0]) {
             console.log('' + item);
         }
