@@ -7,6 +7,10 @@ body {
     padding: 0;
 }
 
+html {
+    margin-right: calc(-1 * (1oovw - 100%));
+}
+
 .header {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
