@@ -311,14 +311,14 @@ body {
     padding-left: calc(15 / 1440 * 100vw);
     padding-top: calc(7 / 1440 * 100vw);
     font-size: calc(28 / 1440 * 100vw);
-    color: rgb(204, 204, 204);
+    color: rgb(120, 120, 120);
     font-weight: 700;
 }
 
 .textarea-personinfo__aboutyourself::placeholder {
     font-size: calc(28 / 1440 * 100vw);
     font-weight: 700;
-    color: rgb(204, 204, 204);
+    color: rgb(120, 120, 120);
 }
 
 .registr-box__checkcase {
