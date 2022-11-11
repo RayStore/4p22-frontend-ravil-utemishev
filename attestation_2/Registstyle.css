@@ -126,9 +126,10 @@ body {
 }
 
 .registr-box__label-email {
-    margin: 0 0 calc(5 / 1440 * 100vw) 0;
+    margin: 0 0 calc(5 / 1440 * 100vw) calc(-12 / 1440 * 100vw);
     font-size: calc(16 / 1440 *100vw);
     color: rgb(120, 120, 120);
+
 }
 
 .registr-box__input-email {
@@ -150,7 +151,7 @@ body {
 }
 
 .registr-box__label-password {
-    margin: 0 0 calc(5 / 1440 * 100vw) 0;
+    margin: 0 0 calc(5 / 1440 * 100vw) calc(-12 / 1440 * 100vw);
     font-size: calc(16 / 1440 * 100vw);
     color: rgb(120, 120, 120);
 }
@@ -173,7 +174,7 @@ body {
 }
 
 .registr-box__label-password-confirm {
-    margin: 0 0 calc(5 / 1440 * 100vw) 0;
+    margin: 0 0 calc(5 / 1440 * 100vw) calc(-12 / 1440 * 100vw);
     font-size: calc(16 / 1440 * 100vw);
     color: rgb(120, 120, 120);
 }
@@ -193,6 +194,61 @@ body {
 
 .registr-box__input-password-confirm::placeholder {
     color: rgb(204, 204, 204);
+}
+
+.required-field1 {
+    color: red;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: calc(16 / 1440 *100vw);
+    display: none;
+    margin: 0 0 calc(-16 / 1440 * 100vw) calc(-12 / 1440 * 100vw);
+    padding-left: calc(258 / 1440 * 100vw);
+}
+
+.required-field2 {
+    color: red;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: calc(16 / 1440 *100vw);
+    display: none;
+    margin: 0 0 calc(-16 / 1440 * 100vw) calc(-12 / 1440 * 100vw);
+    padding-left: calc(331 / 1440 * 100vw);
+}
+
+.required-field3 {
+    color: red;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: calc(16 / 1440 *100vw);
+    display: none;
+    margin: 0 0 calc(-16 / 1440 * 100vw) calc(-12 / 1440 * 100vw);
+    padding-left: calc(258 / 1440 * 100vw);
+}
+
+.required-field4 {
+    color: red;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: calc(16 / 1440 *100vw);
+    display: none;
+    margin: 0 0 calc(-16 / 1440 * 100vw) calc(-12 / 1440 * 100vw);
+    padding-left: calc(150 / 1440 * 100vw);
+}
+
+.required-field5 {
+    color: red;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: calc(16 / 1440 *100vw);
+    display: none;
+    margin: 0 0 calc(-16 / 1440 * 100vw) calc(-12 / 1440 * 100vw);
+    padding-left: calc(356 / 1440 * 100vw);
+}
+
+.check-password {
+    color: #1A226B;
+
 }
 
 .registr-box__radio {
@@ -318,7 +374,7 @@ body {
 .textarea-personinfo__aboutyourself::placeholder {
     font-size: calc(28 / 1440 * 100vw);
     font-weight: 700;
-    color: rgb(120, 120, 120);
+    color: rgb(204, 204, 204);
 }
 
 .registr-box__checkcase {
@@ -368,8 +424,8 @@ body {
     align-items: center;
     left: calc(6 / 1440 * 100vw);
     top: calc(2 / 1440 * 100vw);
-    width: 12px;
-    height: 12px;
+    width: calc(12 / 1440 * 100vw);
+    height: calc(12 / 1440 * 100vw);
     transition: .15s;
     opacity: 0;
 }
@@ -505,7 +561,7 @@ body {
     }
 
     .registr-box__label-email {
-        margin: 0 0 calc(5 / 768 * 100vw) 0;
+        margin: 0 0 calc(5 / 768 * 100vw) calc(-12 / 768 * 100vw);
         font-size: calc(16 / 768 *100vw);
         color: rgb(120, 120, 120);
     }
@@ -529,7 +585,7 @@ body {
     }
 
     .registr-box__label-password {
-        margin: 0 0 calc(5 / 768 * 100vw) 0;
+        margin: 0 0 calc(5 / 768 * 100vw) calc(-12 / 768 * 100vw);
         font-size: calc(16 / 768 * 100vw);
         color: rgb(120, 120, 120);
     }
@@ -552,7 +608,7 @@ body {
     }
 
     .registr-box__label-password-confirm {
-        margin: 0 0 calc(5 / 768 * 100vw) 0;
+        margin: 0 0 calc(5 / 768 * 100vw) calc(-12 / 768 * 100vw);
         font-size: calc(16 / 768 * 100vw);
         color: rgb(120, 120, 120);
     }
@@ -572,6 +628,56 @@ body {
 
     .registr-box__input-password-confirm::placeholder {
         color: rgb(204, 204, 204);
+    }
+
+    .required-field1 {
+        color: red;
+        font-family: "Roboto";
+        font-weight: 700;
+        font-size: calc(16 / 768 *100vw);
+        display: none;
+        margin: 0 0 calc(-16 / 768 * 100vw) calc(-12 / 768 * 100vw);
+        padding-left: calc(258 / 768 * 100vw);
+    }
+
+    .required-field2 {
+        color: red;
+        font-family: "Roboto";
+        font-weight: 700;
+        font-size: calc(16 / 768 *100vw);
+        display: none;
+        margin: 0 0 calc(-16 / 768 * 100vw) calc(-12 / 768 * 100vw);
+        padding-left: calc(331 / 768 * 100vw);
+    }
+
+    .required-field3 {
+        color: red;
+        font-family: "Roboto";
+        font-weight: 700;
+        font-size: calc(16 / 768 *100vw);
+        display: none;
+        margin: 0 0 calc(-16 / 768 * 100vw) calc(-12 / 768 * 100vw);
+        padding-left: calc(258 / 768 * 100vw);
+    }
+
+    .required-field4 {
+        color: red;
+        font-family: "Roboto";
+        font-weight: 700;
+        font-size: calc(16 / 768 *100vw);
+        display: none;
+        margin: 0 0 calc(-16 / 768 * 100vw) calc(-12 / 768 * 100vw);
+        padding-left: calc(150 / 768 * 100vw);
+    }
+
+    .required-field5 {
+        color: red;
+        font-family: "Roboto";
+        font-weight: 700;
+        font-size: calc(16 / 768 *100vw);
+        display: none;
+        margin: 0 0 calc(-16 / 768 * 100vw) calc(-12 / 768 * 100vw);
+        padding-left: calc(356 / 768 * 100vw);
     }
 
     .registr-box__radio {
@@ -747,8 +853,8 @@ body {
         align-items: center;
         left: calc(6 / 768 * 100vw);
         top: calc(2 / 768 * 100vw);
-        width: 12px;
-        height: 12px;
+        width: calc(12 / 768 * 100vw);
+        height: calc(12 / 768 * 100vw);
         transition: .15s;
         opacity: 0;
     }

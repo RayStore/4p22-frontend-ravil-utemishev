@@ -23,13 +23,19 @@
     </header>
     <div class="registr-box">
         <div class="registr-box__title">Регистрация</div>
-        <form action="#" class="registr-box__case-registrator">
-        <label class="registr-box__label-email" for="email">Email</label>
+        <form action="#" class="registr-box__case-registrator">  
+        <div class="registr-box__label-email required-field1" for="email" id="email-requred_id">Поле обязательно для заполнения</div>
+        <div class="registr-box__label-email-error required-field2" for="email" id="email-error">Email введён некорретно</div>
+        <label class="registr-box__label-email" for="email" id="label-email">* Email</label>
         <input class="registr-box__input-email" type="email" id="email" name="email" placeholder="Введите email">
-        <label class="registr-box__label-password" for="password">Пароль</label>
+        <div class="registr-box__label-password-require required-field3" for="password" id="password-reqired_id">Поле обязательно для заполнения</div>
+        <div class="registr-box__label-password-length required-field4" id="password-length">Пароль должен содержать не менее 8 символов</div>
+        <label class="registr-box__label-password" for="password" id="label-password">* Пароль</label>
         <input class="registr-box__input-password" type="password" id="password" name="password" placeholder="Введите пароль">
-        <label class="registr-box__label-password-confirm" for="password-confirm">Подтверждение пароля</label>
+        <div class="registr-box__check-password-confirm required-field5" id="password-confirm_id">Пароли не совпадают</div> 
+        <label class="registr-box__label-password-confirm" id="label-confirm">* Подтверждение пароля</label>
         <input class="registr-box__input-password-confirm" type="password" id="password-confirm" name="password-confirm" placeholder="Подтвердите пароль">  
+         
         <div class="registr-box__radio">
             <legend class="radio__gender">Пол</legend> 
             <div class="radio__man">
@@ -40,11 +46,10 @@
                 <input class="radio__inputWoman" type="radio" name="gender-type" id="woman" value="Woman">
                 <label class="radio__labelWoman" for="woman">Женщина</label>
             </div>
-        </div> 
-        <div class="registr-box__textarea-personinfo">
+            <div class="registr-box__textarea-personinfo">
             <span class="textarea-personinfo__section">О себе</span>
             <textarea class="textarea-personinfo__aboutyourself" name="personinfo" id="personinfo" placeholder="Расскажите о себе..."></textarea> 
-        </div>
+            </div>
         <div class="registr-box__checkcase">
             <input type="checkbox" id="checkcase" value="TRUE">
             <label for="checkcase">Я согласен получать обновления на почту</label> 
@@ -53,5 +58,6 @@
     </form>     
     </div>
 </main>
+<script src="./Registscript.js"></script>
 </body>
 </html>
