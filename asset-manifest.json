@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/4p22-final-project-ravil-utemishev/static/css/main.c92a5cd5.css",
+    "main.js": "/4p22-final-project-ravil-utemishev/static/js/main.f0257299.js",
+    "static/media/remixicon.svg?t=1590207869815": "/4p22-final-project-ravil-utemishev/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/remixicon.eot?t=1590207869815": "/4p22-final-project-ravil-utemishev/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/4p22-final-project-ravil-utemishev/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/remixicon.woff?t=1590207869815": "/4p22-final-project-ravil-utemishev/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/LogoRS.png": "/4p22-final-project-ravil-utemishev/static/media/LogoRS.1d09ae9f0df536ff577b.png",
+    "static/media/Autorepair.jpg": "/4p22-final-project-ravil-utemishev/static/media/Autorepair.e362405c25a7649e59fc.jpg",
+    "static/media/remixicon.woff2?t=1590207869815": "/4p22-final-project-ravil-utemishev/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/LogoRS-02.png": "/4p22-final-project-ravil-utemishev/static/media/LogoRS-02.e27ab6d41bd43447a0cd.png",
+    "index.html": "/4p22-final-project-ravil-utemishev/index.html",
+    "main.c92a5cd5.css.map": "/4p22-final-project-ravil-utemishev/static/css/main.c92a5cd5.css.map",
+    "main.f0257299.js.map": "/4p22-final-project-ravil-utemishev/static/js/main.f0257299.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c92a5cd5.css",
+    "static/js/main.f0257299.js"
+  ]
+}
