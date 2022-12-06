@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/4p22-frontend-ravil-utemishev/static/css/main.4fc57a35.css",
-    "main.js": "/4p22-frontend-ravil-utemishev/static/js/main.74ccfa13.js",
+    "main.js": "/4p22-frontend-ravil-utemishev/static/js/main.c8e2dd3e.js",
     "static/media/remixicon.svg?t=1590207869815": "/4p22-frontend-ravil-utemishev/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/remixicon.eot?t=1590207869815": "/4p22-frontend-ravil-utemishev/static/media/remixicon.5cb99e6cba5a4619063f.eot",
     "static/media/remixicon.ttf?t=1590207869815": "/4p22-frontend-ravil-utemishev/static/media/remixicon.f2616f597cf98f38d234.ttf",
@@ -12,10 +12,10 @@
     "static/media/LogoRS-02.png": "/4p22-frontend-ravil-utemishev/static/media/LogoRS-02.e27ab6d41bd43447a0cd.png",
     "index.html": "/4p22-frontend-ravil-utemishev/index.html",
     "main.4fc57a35.css.map": "/4p22-frontend-ravil-utemishev/static/css/main.4fc57a35.css.map",
-    "main.74ccfa13.js.map": "/4p22-frontend-ravil-utemishev/static/js/main.74ccfa13.js.map"
+    "main.c8e2dd3e.js.map": "/4p22-frontend-ravil-utemishev/static/js/main.c8e2dd3e.js.map"
   },
   "entrypoints": [
     "static/css/main.4fc57a35.css",
-    "static/js/main.74ccfa13.js"
+    "static/js/main.c8e2dd3e.js"
   ]
 }
