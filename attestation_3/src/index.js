@@ -13,11 +13,11 @@ import "react-toastify/dist/ReactToastify.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
-		<BrowserRouter basename='4p22-final-project-ravil-utemishev'>
+		<BrowserRouter basename="4p22-frontend-ravil-utemishev">
 			<Provider store={store}>
 				<ToastContainer
 					theme="dark"
-					position='top-right'
+					position="top-right"
 					autoClose={3000}
 					closeOnClick
 					pauseOnHover
